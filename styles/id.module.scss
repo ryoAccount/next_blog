@@ -1,0 +1,22 @@
+.blogTitle {
+  font-weight: 400;
+  font-size: 2.0rem;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.publishedAt {
+  text-align: right;
+}
+
+.publishedAt::before {
+  content: "\f017";
+  margin-right: 4px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 500;
+}
+
+.goToTop {
+  text-align: right;
+  margin-top: 40px;
+}
