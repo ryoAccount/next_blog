@@ -122,7 +122,7 @@ body {
     height: 100vh;
     top: 0;
     left: calc((100% - 602px) / 2);
-    border: 1px solid #8ebde6;
+    border: 2px solid #8ebde6;
     border-top: 0;
     border-bottom: 0;
     z-index: -1;
@@ -141,7 +141,7 @@ select {
 header,
 main,
 footer {
-  max-width: 600px;
+  max-width: 599px;
   margin: auto;
   padding: 0 40px;
 }
