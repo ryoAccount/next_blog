@@ -5,7 +5,7 @@ import { dateFormat } from "../util/date";
 
 // SSG
 export const getStaticProps = async () => {
-  const data = await client.get({ endpoint: "blog" })
+  const data = await client.get({ endpoint: "blog", queries: { limit: 30 } })
   return {
     props: {
       contents: data.contents as BlogProps[],
@@ -55,7 +55,7 @@ export default function Home({ contents, totalCount }) {
             <dt>site name</dt>
             <dd>RYO CV</dd>
             <dt>portfolio url</dt>
-            <dd><a href="https://portfolio-ryocv.vercel.app/" target="_blank">https://portfolio-ryocv.vercel.app/</a></dd>
+            <dd><a href="https://ryoaccount.github.io/profile/" target="_blank">https://ryoaccount.github.io/profile/</a></dd>
           </dl>
         </div>
       </article>

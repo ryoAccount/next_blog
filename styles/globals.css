@@ -23,6 +23,7 @@ html {
 a {
   color: hotpink;
   text-decoration: none;
+  word-break: keep-all;
 }
 
 a,
@@ -72,7 +73,7 @@ dl,
 ul,
 form {
   margin: 25px 0;
-  word-break: break-all;
+  word-break: keep-all;
 }
 
 p:last-child,
@@ -357,7 +358,6 @@ strong {
 
 em {
   font-style: normal;
-  background: linear-gradient(transparent 50%, #dcc6ab 50%);
 }
 
 strong {
@@ -440,8 +440,8 @@ hr::before {
   }
   dl.border dd,
   dl.inline dd {
-    width: calc(100% - 40px);
-    padding-left: 40px;
+    width: 100%;
+    padding-left: 10px;
   }
 }
 /* ----- ▲ レイアウト　ここまで ▲ ----- */
