@@ -16,7 +16,7 @@ export const getStaticProps = async ( context: ContextProps ) => {
 }
 
 export const getStaticPaths = async () => {
-  const data = await client.get({ endpoint: "blog" })
+  const data = await client.get({ endpoint: "blog", queries: { limit: 30 } })
   const paths = data.contents.map((content) => `/blog/${content.id}`)
   return {
     paths,
