@@ -498,18 +498,29 @@ pre > code::-webkit-scrollbar {
 
 table {
   width: 100%;
+  table-layout: fixed;
   border-collapse: collapse
 }
 th {
-  border: 1px solid #FFF;
-  background-color: #d6e5f2;
+  border: 1px solid #8ebde6;
+  color: #8ebde6;
+}
+
+th > p {
+  margin: 0;
 }
 
 td {
-  border: 1px solid #FFF;
-  background-color: #c7e1fb;
+  border: 1px solid #8ebde6;
   padding: 4px;
   text-align: center;
+  word-wrap: break-word;
+}
+
+td > p {
+  margin: 0;
+  font-size: 90%;
+  text-align: left;
 }
 
 figure {
