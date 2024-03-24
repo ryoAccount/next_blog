@@ -135,7 +135,7 @@ button,
 input,
 textarea,
 select {
-  font: 500 1.6rem / calc(1.6rem + 1.05rem) "Yu Gothic", Meiryo, "Hiragino Kaku Gothic ProN", sans-serif;
+  font: 500 2.0rem / calc(1.6rem + 1.05rem) "Rajdhani", "Yu Gothic", Meiryo, "Hiragino Kaku Gothic ProN", sans-serif;
   color: whitesmoke;
 }
 
@@ -403,8 +403,8 @@ hr::before {
 @media only screen and (max-width: 900px) {
   body,
   button {
-    font-size: 1.4rem;
-    line-height: calc(1.4rem + 1.05rem);
+    font-size: 1.8rem;
+    line-height: calc(1.6rem + 1.05rem);
   }
   body::before {
     content: none;

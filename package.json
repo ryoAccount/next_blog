@@ -12,15 +12,15 @@
     "@types/node": "20.6.3",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
-    "@vercel/analytics": "^1.0.2",
-    "@vercel/speed-insights": "^1.0.2",
+    "@vercel/analytics": "^1.2.2",
+    "@vercel/speed-insights": "^1.0.10",
     "eslint": "8.49.0",
     "eslint-config-next": "13.5.1",
-    "microcms-js-sdk": "^2.5.0",
+    "microcms-js-sdk": "^2.7.0",
     "next": "13.5.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.66.1",
+    "sass": "^1.72.0",
     "typescript": "5.2.2"
   }
 }
