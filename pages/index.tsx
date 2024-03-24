@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { client } from "@/libs/client"
 import { BlogProps } from "@/libs/type"
 import styles from "../styles/home.module.scss"
@@ -59,6 +60,9 @@ export default function Home({ contents, totalCount }) {
             <dt>portfolio url (OLD)</dt>
             <dd><a href="https://ryoaccount.github.io/profile/" target="_blank">https://ryoaccount.github.io/profile/</a></dd>
           </dl>
+        </div>
+        <div className={styles.avatar}>
+          <Image src="/image/avatar.jpg" alt="avatar" width={360} height={360} />
         </div>
       </article>
     </main>
