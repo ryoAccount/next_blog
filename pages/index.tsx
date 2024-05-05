@@ -55,10 +55,8 @@ export default function Home({ contents, totalCount }) {
           <dl className="inline">
             <dt>site name</dt>
             <dd>RYO CV</dd>
-            <dt>portfolio url (3D)</dt>
+            <dt>portfolio url</dt>
             <dd><a href="https://portfolio3d-ryo.vercel.app/" target="_blank">https://portfolio3d-ryo.vercel.app/</a></dd>
-            <dt>portfolio url (OLD)</dt>
-            <dd><a href="https://ryoaccount.github.io/profile/" target="_blank">https://ryoaccount.github.io/profile/</a></dd>
           </dl>
         </div>
         <div className={styles.avatar}>
